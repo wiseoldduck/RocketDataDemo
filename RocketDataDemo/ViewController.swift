@@ -71,8 +71,10 @@ extension ViewController: UITableViewDataSource {
 
 extension ViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
-        
+        guard let url = collection[indexPath.row].imageURL else { return }
+        let vc = PuppyImageViewController()
+        vc.imageURL = URL(string: url)
+        self.show(vc, sender:nil)
     }
     
 }

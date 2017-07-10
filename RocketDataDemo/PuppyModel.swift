@@ -19,26 +19,25 @@ struct PuppyModel:Codable {
     private enum CodingKeys: String, CodingKey {
         
         case caption = "photo-caption"
-        case imageURL = "photo-url-400"
+        case imageURL = "photo-url-1280"
     }
 }
 
-extension PuppyModel: SampleAppModel {
+extension PuppyModel {
     
     init?(data: [AnyHashable: Any]) {
-        guard let id = data["id"] as? String,
-            let caption = data["caption"] as? String,
+        guard let caption = data["caption"] as? String,
             let imageURL = data["imageURL"] as? String else {
                 return nil
         }
-        self.id = id
+        
         self.caption = caption
         self.imageURL = imageURL
     }
     
     func data() -> [AnyHashable: Any] {
         return [
-            "id": id,
+            
             "caption": caption ?? "",
             "imageURL": imageURL ?? ""
         ]
