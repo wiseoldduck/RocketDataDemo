@@ -14,7 +14,10 @@
 		432284AF1F0D93DF008D9AC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 432284AD1F0D93DF008D9AC0 /* LaunchScreen.storyboard */; };
 		432284B81F0DB15F008D9AC0 /* RocketDataSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432284B71F0DB15F008D9AC0 /* RocketDataSetup.swift */; };
 		432284BA1F0DB23E008D9AC0 /* AppCacheDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432284B91F0DB23E008D9AC0 /* AppCacheDelegate.swift */; };
+		436130B71F1332AE0079CF92 /* PuppyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436130B61F1332AE0079CF92 /* PuppyCell.swift */; };
+		436130B91F1335C20079CF92 /* String+HTML2String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436130B81F1335C20079CF92 /* String+HTML2String.swift */; };
 		43A6244B1F0FFA1B00FC424E /* SampleAppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A6244A1F0FFA1B00FC424E /* SampleAppModel.swift */; };
+		43A6244D1F1052E100FC424E /* PuppyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A6244C1F1052E100FC424E /* PuppyModel.swift */; };
 		91043BD23A218E5A22F76D85 /* Pods_RocketDataDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 629986E7DBC1F070784A9E9F /* Pods_RocketDataDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +31,10 @@
 		432284B01F0D93DF008D9AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		432284B71F0DB15F008D9AC0 /* RocketDataSetup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RocketDataSetup.swift; sourceTree = "<group>"; };
 		432284B91F0DB23E008D9AC0 /* AppCacheDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCacheDelegate.swift; sourceTree = "<group>"; };
+		436130B61F1332AE0079CF92 /* PuppyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuppyCell.swift; sourceTree = "<group>"; };
+		436130B81F1335C20079CF92 /* String+HTML2String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+HTML2String.swift"; sourceTree = "<group>"; };
 		43A6244A1F0FFA1B00FC424E /* SampleAppModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleAppModel.swift; sourceTree = "<group>"; };
+		43A6244C1F1052E100FC424E /* PuppyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuppyModel.swift; sourceTree = "<group>"; };
 		629986E7DBC1F070784A9E9F /* Pods_RocketDataDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RocketDataDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A26140EA48D666098E8D864D /* Pods-RocketDataDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RocketDataDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RocketDataDemo/Pods-RocketDataDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		DD8A3473DAF803B48A23ED07 /* Pods-RocketDataDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RocketDataDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RocketDataDemo/Pods-RocketDataDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -75,6 +81,8 @@
 				432284AB1F0D93DF008D9AC0 /* Assets.xcassets */,
 				432284AD1F0D93DF008D9AC0 /* LaunchScreen.storyboard */,
 				432284B01F0D93DF008D9AC0 /* Info.plist */,
+				436130B61F1332AE0079CF92 /* PuppyCell.swift */,
+				436130B81F1335C20079CF92 /* String+HTML2String.swift */,
 			);
 			path = RocketDataDemo;
 			sourceTree = "<group>";
@@ -92,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				43A6244A1F0FFA1B00FC424E /* SampleAppModel.swift */,
+				43A6244C1F1052E100FC424E /* PuppyModel.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -240,7 +249,10 @@
 				432284A71F0D93DF008D9AC0 /* ViewController.swift in Sources */,
 				432284BA1F0DB23E008D9AC0 /* AppCacheDelegate.swift in Sources */,
 				432284B81F0DB15F008D9AC0 /* RocketDataSetup.swift in Sources */,
+				436130B91F1335C20079CF92 /* String+HTML2String.swift in Sources */,
 				43A6244B1F0FFA1B00FC424E /* SampleAppModel.swift in Sources */,
+				43A6244D1F1052E100FC424E /* PuppyModel.swift in Sources */,
+				436130B71F1332AE0079CF92 /* PuppyCell.swift in Sources */,
 				432284A51F0D93DF008D9AC0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
