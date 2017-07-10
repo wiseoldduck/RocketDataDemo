@@ -16,6 +16,8 @@
 		432284BA1F0DB23E008D9AC0 /* AppCacheDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432284B91F0DB23E008D9AC0 /* AppCacheDelegate.swift */; };
 		436130B71F1332AE0079CF92 /* PuppyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436130B61F1332AE0079CF92 /* PuppyCell.swift */; };
 		436130B91F1335C20079CF92 /* String+HTML2String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436130B81F1335C20079CF92 /* String+HTML2String.swift */; };
+		43785C541F134A3200F4B6E1 /* PuppyImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43785C521F134A3200F4B6E1 /* PuppyImageViewController.swift */; };
+		43785C551F134A3200F4B6E1 /* PuppyImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43785C531F134A3200F4B6E1 /* PuppyImageViewController.xib */; };
 		43A6244B1F0FFA1B00FC424E /* SampleAppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A6244A1F0FFA1B00FC424E /* SampleAppModel.swift */; };
 		43A6244D1F1052E100FC424E /* PuppyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A6244C1F1052E100FC424E /* PuppyModel.swift */; };
 		91043BD23A218E5A22F76D85 /* Pods_RocketDataDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 629986E7DBC1F070784A9E9F /* Pods_RocketDataDemo.framework */; };
@@ -33,6 +35,8 @@
 		432284B91F0DB23E008D9AC0 /* AppCacheDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCacheDelegate.swift; sourceTree = "<group>"; };
 		436130B61F1332AE0079CF92 /* PuppyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuppyCell.swift; sourceTree = "<group>"; };
 		436130B81F1335C20079CF92 /* String+HTML2String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+HTML2String.swift"; sourceTree = "<group>"; };
+		43785C521F134A3200F4B6E1 /* PuppyImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuppyImageViewController.swift; sourceTree = "<group>"; };
+		43785C531F134A3200F4B6E1 /* PuppyImageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PuppyImageViewController.xib; sourceTree = "<group>"; };
 		43A6244A1F0FFA1B00FC424E /* SampleAppModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleAppModel.swift; sourceTree = "<group>"; };
 		43A6244C1F1052E100FC424E /* PuppyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuppyModel.swift; sourceTree = "<group>"; };
 		629986E7DBC1F070784A9E9F /* Pods_RocketDataDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RocketDataDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +87,8 @@
 				432284B01F0D93DF008D9AC0 /* Info.plist */,
 				436130B61F1332AE0079CF92 /* PuppyCell.swift */,
 				436130B81F1335C20079CF92 /* String+HTML2String.swift */,
+				43785C521F134A3200F4B6E1 /* PuppyImageViewController.swift */,
+				43785C531F134A3200F4B6E1 /* PuppyImageViewController.xib */,
 			);
 			path = RocketDataDemo;
 			sourceTree = "<group>";
@@ -186,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				432284AF1F0D93DF008D9AC0 /* LaunchScreen.storyboard in Resources */,
+				43785C551F134A3200F4B6E1 /* PuppyImageViewController.xib in Resources */,
 				432284AC1F0D93DF008D9AC0 /* Assets.xcassets in Resources */,
 				432284AA1F0D93DF008D9AC0 /* Main.storyboard in Resources */,
 			);
@@ -246,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43785C541F134A3200F4B6E1 /* PuppyImageViewController.swift in Sources */,
 				432284A71F0D93DF008D9AC0 /* ViewController.swift in Sources */,
 				432284BA1F0DB23E008D9AC0 /* AppCacheDelegate.swift in Sources */,
 				432284B81F0DB15F008D9AC0 /* RocketDataSetup.swift in Sources */,
